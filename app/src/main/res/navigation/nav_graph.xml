@@ -31,6 +31,8 @@
         tools:layout="@layout/fragment_summary" >
         <action
             android:id="@+id/action_SummaryFragment_to_StartFragment"
-            app:destination="@id/StartFragment" />
+            app:destination="@id/StartFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/StartFragment"/>
     </fragment>
 </navigation>
