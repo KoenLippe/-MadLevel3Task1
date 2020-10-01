@@ -8,17 +8,17 @@
     <fragment
         android:id="@+id/StartFragment"
         android:name="com.example.madlevel3task1.StartFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/title"
         tools:layout="@layout/fragment_start">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            android:id="@+id/action_startFragment_to_ratingFragment"
             app:destination="@id/RatingFragment" />
     </fragment>
     <fragment
         android:id="@+id/RatingFragment"
         android:name="com.example.madlevel3task1.RatingFragment"
-        android:label="@string/second_fragment_label"
+        android:label="@string/rate_title"
         tools:layout="@layout/fragment_rating">
 
         <action
