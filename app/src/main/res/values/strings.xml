@@ -5,4 +5,5 @@
     <string name="title">Welcome to the Games Rating app!</string>
     <string name="subtitle">Click START to start rating :-></string>
     <string name="rate_title">Rate the following game from 1 to 5 stars!</string>
+    <string name="to_summary">To Summary</string>
 </resources>
